@@ -1,0 +1,151 @@
+@font-face {
+  font-family: chacha;
+  src: url(./Asst/Fonts/Evil\ Empire.otf);
+}
+
+@font-face {
+  font-family: goliu;
+  src: url(./Asst/Fonts/defused.ttf);
+}
+
+@font-face {
+  font-family: lulu;
+  src: url(./Asst/Fonts/Neuropolitical\ Rg.otf);
+}
+
+@font-face {
+  font-family: hori;
+  src: url(./Asst/Fonts/Hunters\ K-Pop.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* main part starts from here */
+
+main {
+  height: 100%;
+  width: 100%;
+  padding: 1% 0%;
+}
+
+/* nav starts from here */
+#nav {
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#nav a {
+  color: #bf092f;
+  text-decoration: none;
+  font-family: chacha;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+#nav a:hover {
+  color: black;
+  border-bottom: 2px solid #bf092f;
+}
+
+#nav h2 {
+  font-size: 4vh;
+  font-weight: 700;
+  font-family: goliu;
+  margin: 0% 15%;
+}
+
+/* section1 starts from here */
+
+.section1 {
+  height: 100vh;
+  width: 100%;
+  padding: 2%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.6;
+  background-color: #3b9797;
+  background-image: url("https://images.unsplash.com/photo-1641337221253-fdc7237f6b61?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section1 h4{
+  font-size: 3vh;
+  font-weight: 400;
+  font-family: lulu;
+  color: #DFD0B8;
+}
+
+.section1 h4:hover span{
+  border-bottom: 2px solid rgb(211, 205, 205); 
+  color:#bf092f;
+}
+
+.section1 h1{
+  font-size: 8vh;
+  font-weight: 400;
+  font-family: hori;
+  color: #bf092f;
+}
+
+.section1 h1:hover{
+  color: #f5f5f5;
+  border-bottom: 4px solid rgb(193, 17, 17);
+}
+
+.section1 p{
+  font-size: 3vh;
+  font-weight: 400;
+  font-family: lulu;
+  color: #DFD0B8;
+}
+
+.section1 p:hover span{
+  border-bottom: 2px solid rgb(211, 205, 205); 
+  color:#bf092f;
+}
+
+.section1 .click{
+  margin-top: 10%;
+  display: flex;
+  gap: 8%;
+  justify-content: space-around;
+  /* background-color: #bf092f; */
+  width: 50%;
+  padding: 1%;
+}
+
+.section1 .click button{
+  font-size: 2vh;
+  font-family: chacha;
+  padding: 1%;
+  font-weight: 300;
+  border-radius: 15px;
+  border-color: black;
+  color: #bf092f;
+  background-color: #DFD0B8;
+}
+
+.section1 .click button:hover{
+  cursor: pointer;
+  background: #000;
+  width: 40%;
+}
